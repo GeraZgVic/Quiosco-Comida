@@ -1,0 +1,34 @@
+/* En tu archivo CSS o en un estilo en línea en tu componente */
+main::-webkit-scrollbar {
+    width: 12px;
+    /* Ancho de la barra de desplazamiento */
+}
+
+main::-webkit-scrollbar-thumb {
+    background-color: #000;
+    /* Color del thumb (la parte deslizable) */
+    border-radius: 4px;
+    /* Bordes redondeados */
+}
+
+main::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    /* Color de fondo de la barra de desplazamiento */
+}
+
+/* En tu archivo CSS o en un estilo en línea en tu componente */
+main {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+}
+
+/* En tu archivo CSS o en un estilo en línea en tu componente */
+main {
+    transition: box-shadow 0.3s ease-in-out;
+    /* Transición suave de 0.3 segundos */
+}
+
+main:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    /* Cambia la sombra al hacer hover */
+}
